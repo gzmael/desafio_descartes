@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component/Template/Container > should render Container with children 1`] = `
+<div
+  class="h-full w-full rounded-md bg-gradient-to-t from-[#BFDBEE] to-light-blue-500 p-[1px] shadow-lg"
+  data-testid="container"
+>
+  <div
+    class="flex h-full w-full items-stretch justify-center overflow-hidden rounded-[4px] bg-gradient-to-b from-[#0CA7E5] to-blue-900"
+  >
+    <p>
+      Teste
+    </p>
+  </div>
+</div>
+`;

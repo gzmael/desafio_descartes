@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component/Atom/Text > should render text with Slot tag 1`] = `
+<span
+  class="tracking-wider text-base text-white font-medium"
+>
+  Slot Text
+</span>
+`;
+
+exports[`Component/Atom/Text > should render text with default variant 1`] = `
+<p
+  class="tracking-wider text-base text-white font-medium"
+>
+  Hello World
+</p>
+`;
+
+exports[`Component/Atom/Text > should render text with large size and bold 1`] = `
+<p
+  class="tracking-wider text-lg text-ligthblue-500 font-bold"
+>
+  Medium Text
+</p>
+`;
+
+exports[`Component/Atom/Text > should render text with medium size and primary color 1`] = `
+<p
+  class="tracking-wider text-base text-ligthblue-500 font-medium"
+>
+  Medium Text
+</p>
+`;
+
+exports[`Component/Atom/Text > should render text with small size variant 1`] = `
+<p
+  class="tracking-wider text-sm text-white font-medium"
+>
+  Small Text
+</p>
+`;

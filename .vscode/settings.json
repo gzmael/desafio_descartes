@@ -1,0 +1,49 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "sourse.fixAll.eslint": true
+  },
+  "search.exclude": {
+    "package-lock.json": true
+  },
+  "files.associations": {
+    "*.tsx": "typescriptreact",
+    "*.css": "tailwindcss"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "tailwindCSS.emmetCompletions": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, :root {
+    @apply h-screen w-screen antialiased scroll-smooth overflow-x-hidden;
+  }
+
+  body {
+    @apply antialiased font-sans min-h-screen w-screen overflow-x-hidden text-white bg-gradient-to-tl from-blue-500 to-light-blue-400;
+  }
+}
+
+@layer components {
+  .btn-sm svg {
+    @apply h-5 w-5;
+  }
+  .btn-md svg {
+    @apply h-6 w-6;
+  }
+}

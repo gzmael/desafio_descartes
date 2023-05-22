@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "bradlc.vscode-tailwindcss",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "lightyen.tailwindcss-intellisense-twin",
+    "formulahendry.auto-rename-tag",
+    "wix.vscode-import-cost"
+  ]
+}
