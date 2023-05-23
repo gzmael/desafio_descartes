@@ -44,7 +44,7 @@ const Sidebar = () => {
   return (
     <aside
       data-testid="sidebar"
-      className="flex w-full flex-col gap-1 px-3 py-4 md:w-96"
+      className="flex w-full flex-col gap-1 px-3 py-4 md:w-1/3"
     >
       <header className="flex w-full gap-2">
         <Search />

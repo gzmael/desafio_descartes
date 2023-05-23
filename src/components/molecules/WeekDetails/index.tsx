@@ -22,7 +22,7 @@ const WeekDetails = ({ forecast, isLoading }: WeekDetailsProps) => {
   return (
     <div
       data-testid="week-details"
-      className="flex items-center justify-between"
+      className="flex flex-col items-start justify-between xl:flex-row xl:items-center"
     >
       <div className="flex">
         <IconWeather icon="03n" />
@@ -35,7 +35,7 @@ const WeekDetails = ({ forecast, isLoading }: WeekDetailsProps) => {
           </Text>
         </div>
       </div>
-      <div className="flex items-center gap-[2px]">
+      <div className="flex items-center gap-3 md:gap-3">
         <div className="flex items-center">
           <Droplets size={16} />
           <Text size="xxs" weight="regular">

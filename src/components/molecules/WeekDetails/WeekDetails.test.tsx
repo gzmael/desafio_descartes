@@ -31,7 +31,7 @@ describe('components/molecules/WeekDetails', () => {
 
     expect(screen.getByTestId('week-details')).toBeInTheDocument()
     expect(screen.getByTestId('week-details')).toHaveClass(
-      'flex items-center justify-between',
+      'flex flex-col items-start justify-between xl:flex-row xl:items-center',
     )
   })
 
@@ -45,7 +45,7 @@ describe('components/molecules/WeekDetails', () => {
 
     expect(screen.getByTestId('week-details-placeholder')).toBeInTheDocument()
     expect(screen.getByTestId('week-details-placeholder')).toHaveClass(
-      'flex animate-pulse items-center justify-between',
+      'flex flex-col items-start justify-between xl:flex-row xl:items-center',
     )
   })
 })

@@ -15,7 +15,7 @@ const Map = () => {
   }, [map, position])
 
   return (
-    <div data-testid="map" className="min-h-[438px] w-full bg-white">
+    <div data-testid="map" className="min-h-[438px] w-full bg-white md:w-2/3">
       <MapContainer
         center={position}
         zoom={13}

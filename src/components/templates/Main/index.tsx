@@ -13,14 +13,14 @@ const MainLayout = ({ children }: MainLayoutProps) => {
         'relative flex min-h-screen w-screen items-center justify-center px-2 py-4 transition-all duration-300 ease-linear md:p-0',
       )}
     >
-      <main className="z-10 flex w-full max-w-5xl flex-col items-center gap-4 rounded-lg">
+      <main className="z-10 flex w-full flex-col items-center gap-4 rounded-lg md:max-w-5xl lg:max-w-6xl">
         {children}
       </main>
       {backgroundUrl && (
         <img
           src={backgroundUrl}
           alt="Background"
-          className="absolute z-0 h-full w-auto object-cover opacity-30"
+          className="absolute z-0 h-full w-auto object-cover opacity-30 sm:opacity-70 md:h-screen md:w-full"
         />
       )}
     </div>

@@ -24,11 +24,11 @@ const WeekHoursWeather = ({ forecasts, isLoading }: WeekHoursWeatherProps) => {
       {forecasts.map((forecast) => (
         <div
           key={forecast.date}
-          className="w-1/4 snap-start bg-light-blue-900/50 px-2 py-2"
+          className="w-1/4 snap-start bg-light-blue-900/50 px-1 py-2 sm:px-2"
         >
           <IconWeather icon={forecast.icon} />
           <Text size="lg" weight="semibold">
-            {formatTemperature(forecast.temperature)} º
+            {formatTemperature(forecast.temperature)}º
           </Text>
           <Text
             size="xxs"
@@ -38,17 +38,16 @@ const WeekHoursWeather = ({ forecasts, isLoading }: WeekHoursWeatherProps) => {
             {forecast.description}
           </Text>
           <Text size="xxs" weight="regular" display="flex" className="gap-1">
-            <Droplets size={16} className="w-4" />
-            {forecast.humidity}%
+            <Droplets size={14} className="w-4" />
+            {forecast.humidity} %
           </Text>
-
           <Text
             size="xxs"
             weight="regular"
             display="flex"
             className="w-full items-center gap-1"
           >
-            <Wind size={16} className="w-4" />
+            <Wind size={14} className="w-4" />
             {formatMsToKmH(forecast.wind, 1)} km/h
           </Text>
           <Text

@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply antialiased font-sans min-h-screen w-screen overflow-x-hidden text-white bg-gradient-to-tl from-blue-500 to-light-blue-400;
+    @apply antialiased font-sans min-h-screen w-screen overflow-hidden text-white bg-gradient-to-tl from-blue-500 to-light-blue-400;
   }
 }
 

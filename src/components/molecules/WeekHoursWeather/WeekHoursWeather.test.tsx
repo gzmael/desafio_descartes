@@ -28,7 +28,6 @@ describe('components/molecules/WeekHoursWeather', () => {
     }
 
     render(<WeekHoursWeather {...props} />)
-    screen.debug()
 
     expect(screen.getByTestId('week-hours')).toBeInTheDocument()
     expect(screen.getByTestId('week-hours')).toHaveClass(
