@@ -1,12 +1,14 @@
 ![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
 
-# React Tailwindcss Boilerplate build with Vite
+# Desafio para seleção da Descartes
 
-This project use [Joao Paulo Boilerplate](joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate) to start. This boilerplate is build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+Esse projeto faz parte do desafio técnico para vaga de Desenvolvedor Fronten da Descartes. Foi utilizado como boilerplate o template do [Joao Paulo Boilerplate](joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate). O projeto é feito com Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint e Prettier.
 
-## What is inside?
+O arquivo [History.md](https://github.com/gzmael/desafio_descartes/blob/main/HISTORY.md) contém a lógica que foi adotada para criação deste projeto. 
 
-This project uses many tools like:
+## Quais tecnologias é utilizada?
+
+Este projeto utiliza as seguintes principais tecnologias:
 
 - [Vite](https://vitejs.dev)
 - [ReactJS](https://reactjs.org)
@@ -16,8 +18,9 @@ This project uses many tools like:
 - [Tailwindcss](https://tailwindcss.com)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
+- [Leaflet](https://react-leaflet.js.org)
 
-## Tecnologias Utilizadas
+## Mais Detalhes das Tecnologias
 
 ### CSS-in-JS
 - **TailwindCSS**: framework utilitário CSS utilizado para acelerar a criação da interface. Com classes já predefinidas é possível criar interfaces de forma mais rápidas e responsivas por meio de tokens, cores, espaçamentos, já predefinidos.
