@@ -3,10 +3,6 @@
   "description": "Made with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=18.16.0",
-    "npm": ">=9.5.1"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

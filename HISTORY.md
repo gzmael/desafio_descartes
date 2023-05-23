@@ -9,7 +9,7 @@ Como guia eu criei um checklist contendo os seguintes items:
 - [x] Escolher a api de tempo; openweathermap.org
 - [x] Planejar o layout responsivo da aplicação no Figma;
 - [x] Criar os Tokens da aplicação;
-- [ ] Criar os componentes;
+- [x] Criar os componentes;
 - [x] Adicionar o Leaflet para o mapa;
 - [x] Pedir a permissão e buscar a geolocalização no início da aplicação;
 - [x] Reconhecer a geolocalização, cidade, estado e aplicar o background do unsplash; ([Unsplash API Documentation | Free HD Photo API | Unsplash](https://unsplash.com/documentation#get-a-random-photo))
@@ -33,3 +33,4 @@ Como guia eu criei um checklist contendo os seguintes items:
 7. Optei por utilizar o Context API do React para o compartilhamento da posição, métodos e endereço entre a sidebar e o mapa.
 8. Para criação do mapa foi utilizado o Leaflet. Assim os eventos de clicks no mapa ficaram mais simples de serem tratados.
 9. Para a recuperação do endereço de acordo com a geolocalização eu utilizei a api do Google Geocode.
+10. Finalizei o projeto com todas as funcionalidades solicitadas, porém, não consegui ter o coverage 100% nos testes. Alguns testes para eventos no mapa e a integração com a api não consegui criar devida a falta de experiência com esses componentes.

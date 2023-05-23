@@ -42,58 +42,76 @@ This project uses many tools like:
 
 ### Install
 
-Create the project.
+Clone the project.
 
 ```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+git clone https://github.com/gzmael/desafio_descartes.git
 ```
 
 Access the project directory.
 
 ```bash
-cd my-app
+cd desafio_descartes
 ```
 
 Install dependencies.
 
 ```bash
-pnpm install
+npm install
+```
+
+Create .env file.
+
+```bash
+cp .env.example .env
+```
+
+Update the enviroments from .env file.
+
+```bash
+VITE_GOOGLE_GEOCODING_KEY=
+VITE_UNSPLAH_KEY=
 ```
 
 Serve with hot reload at <http://localhost:5173>.
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 ### Lint
 
 ```bash
-pnpm run lint
+npm run lint
 ```
 
 ### Typecheck
 
 ```bash
-pnpm run typecheck
+npm run typecheck
 ```
 
 ### Build
 
 ```bash
-pnpm run build
+npm run build
 ```
 
 ### Test
 
 ```bash
-pnpm run test
+npm run test
 ```
 
 View and interact with your tests via UI.
 
 ```bash
-pnpm run test:ui
+npm run test:ui
+```
+View tests coverages.
+
+```bash
+npm run test:coverage
 ```
 
 ## License
