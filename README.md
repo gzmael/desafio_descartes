@@ -6,6 +6,26 @@ Esse projeto faz parte do desafio técnico para vaga de Desenvolvedor Fronten da
 
 O arquivo [History.md](https://github.com/gzmael/desafio_descartes/blob/main/HISTORY.md) contém a lógica que foi adotada para criação deste projeto. 
 
+## Checklist
+
+- [x] Criar projeto com React + Vite + Typescript;
+- [x] Adicionar TailwindCSS e CVA;
+- [x] Escolher a api de tempo; openweathermap.org
+- [x] Planejar o layout responsivo da aplicação no Figma;
+- [x] Criar os Tokens da aplicação;
+- [x] Criar os componentes;
+- [x] Adicionar o Leaflet para o mapa;
+- [x] Pedir a permissão e buscar a geolocalização no início da aplicação;
+- [x] Reconhecer a geolocalização, cidade, estado e aplicar o background do unsplash;
+- [x] Adicionar o marcador na geolocalização;
+- [x] Pegar a geolocalização de acordo com o endereço informado;
+- [x] Adicionar Popover em cima do marcador de posição;
+- [x] Adicionar buscar geolocalização quando clicar em um ponto do mapa;
+- [x] Adicionar Icones da previsão;
+- [x] Adicionar os dados da previsão do tempo;
+- [x] Adicionar teste unitários;
+- [ ] Adicionar teste de integração;
+
 ## Quais tecnologias é utilizada?
 
 Este projeto utiliza as seguintes principais tecnologias:
