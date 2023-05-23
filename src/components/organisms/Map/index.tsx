@@ -20,7 +20,7 @@ const Map = () => {
         center={position}
         zoom={13}
         scrollWheelZoom={false}
-        className="h-full min-h-[438px] w-full bg-white"
+        className="h-full min-h-[438px] w-full bg-white md:min-h-[600px]"
         ref={setMap}
       >
         <TileLayer
