@@ -13,7 +13,7 @@ describe('Component/Atom/Button', () => {
       defaultStyle,
       'h-10 pl-3 pr-4 gap-2 text-base btn-md',
       'w-auto',
-      'bg-indigo-500 hover:bg-indigo-600 text-white hover:text-white focus:ring-2 focus:ring-blue-400 focus:ring-offset-2',
+      'bg-light-blue-900/80 hover:bg-light-blue-300/50 text-white hover:text-white',
       'rounded',
     ])
 
@@ -63,7 +63,7 @@ describe('Component/Atom/Button', () => {
       defaultStyle,
       'h-8 pl-2 pr-3 gap-1 text-sm btn-sm',
       'w-auto',
-      'bg-indigo-500 hover:bg-indigo-600 text-white hover:text-white focus:ring-2 focus:ring-blue-400 focus:ring-offset-2',
+      'bg-light-blue-900/80 hover:bg-light-blue-300/50 text-white hover:text-white',
       'rounded-none',
       'w-3/4',
     ])

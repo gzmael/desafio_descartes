@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component/Atom/IconWeather > should render IconWeather with default variant 1`] = `
+<img
+  alt="Weather Icon"
+  class="h-10 w-10"
+  src="https://openweathermap.org/img/wn/03n.png"
+/>
+`;
+
+exports[`Component/Atom/IconWeather > should render IconWeather with large variant 1`] = `
+<img
+  alt="Weather Icon"
+  class="h-16 w-16"
+  src="https://openweathermap.org/img/wn/03n@2x.png"
+/>
+`;

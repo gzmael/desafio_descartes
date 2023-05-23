@@ -6,5 +6,6 @@ export default defineConfig({
   schema: {
     VITE_GOOGLE_GEOCODING_KEY: z.string(),
     VITE_UNSPLAH_KEY: z.string(),
+    VITE_OPENWEATHER_KEY: z.string(),
   },
 })

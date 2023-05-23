@@ -2,7 +2,8 @@
 
 exports[`Component/Atom/Button > should render Button with default variant 1`] = `
 <button
-  class="flex items-center justify-center font-medium disabled:cursor-not-allowed cursor-pointer transition-all disabled:opacity-50 disabled:pointer-events-none focus:outline-none active:scale-95 bg-indigo-500 hover:bg-indigo-600 text-white hover:text-white focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 h-10 pl-3 pr-4 gap-2 text-base btn-md rounded w-auto"
+  class="flex items-center justify-center font-medium disabled:cursor-not-allowed cursor-pointer transition-all disabled:opacity-50 disabled:pointer-events-none focus:outline-none active:scale-95 bg-light-blue-900/80 hover:bg-light-blue-300/50 text-white hover:text-white h-10 pl-3 pr-4 gap-2 text-base btn-md rounded w-auto"
+  type="button"
 >
   Button Default
 </button>
@@ -11,6 +12,7 @@ exports[`Component/Atom/Button > should render Button with default variant 1`] =
 exports[`Component/Atom/Button > should render Button with icon variant 1`] = `
 <button
   class="flex items-center justify-center font-medium disabled:cursor-not-allowed cursor-pointer disabled:opacity-50 disabled:pointer-events-none focus:outline-none active:scale-95 bg-transparent hover:bg-transparent transition-all focus:ring-none h-10 gap-2 text-base btn-md rounded w-auto p-2"
+  type="button"
 >
   Button Icon
 </button>
@@ -18,7 +20,8 @@ exports[`Component/Atom/Button > should render Button with icon variant 1`] = `
 
 exports[`Component/Atom/Button > should render small primary Button with variants 1`] = `
 <button
-  class="flex items-center justify-center font-medium disabled:cursor-not-allowed cursor-pointer transition-all disabled:opacity-50 disabled:pointer-events-none focus:outline-none active:scale-95 bg-indigo-500 hover:bg-indigo-600 text-white hover:text-white focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 h-8 pl-2 pr-3 gap-1 text-sm btn-sm rounded-none w-3/4"
+  class="flex items-center justify-center font-medium disabled:cursor-not-allowed cursor-pointer transition-all disabled:opacity-50 disabled:pointer-events-none focus:outline-none active:scale-95 bg-light-blue-900/80 hover:bg-light-blue-300/50 text-white hover:text-white h-8 pl-2 pr-3 gap-1 text-sm btn-sm rounded-none w-3/4"
+  type="button"
 >
   Button Primary
 </button>

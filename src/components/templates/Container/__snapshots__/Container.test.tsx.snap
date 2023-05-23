@@ -6,7 +6,7 @@ exports[`Component/Template/Container > should render Container with children 1`
   data-testid="container"
 >
   <div
-    class="flex h-full w-full items-stretch justify-center overflow-hidden rounded-[4px] bg-gradient-to-b from-[#0CA7E5] to-blue-900"
+    class="flex h-full w-full flex-col justify-center overflow-hidden rounded-[6px] bg-gradient-to-b from-[#0CA7E5] to-blue-900 md:flex-row "
   >
     <p>
       Teste

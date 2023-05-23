@@ -20,7 +20,7 @@ const textVariants = cva('leading-6 tracking-wider', {
     },
     type: {
       white: 'text-white',
-      primary: 'text-ligthblue-500',
+      primary: 'text-light-blue-500',
     },
     weight: {
       regular: 'font-normal',

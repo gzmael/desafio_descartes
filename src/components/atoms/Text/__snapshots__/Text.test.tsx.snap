@@ -18,7 +18,7 @@ exports[`Component/Atom/Text > should render text with default variant 1`] = `
 
 exports[`Component/Atom/Text > should render text with large size and bold 1`] = `
 <p
-  class="tracking-wider text-lg text-ligthblue-500 font-bold"
+  class="tracking-wider text-lg text-light-blue-500 font-bold"
 >
   Medium Text
 </p>
@@ -26,7 +26,7 @@ exports[`Component/Atom/Text > should render text with large size and bold 1`] =
 
 exports[`Component/Atom/Text > should render text with medium size and primary color 1`] = `
 <p
-  class="tracking-wider text-base text-ligthblue-500 font-medium"
+  class="tracking-wider text-base text-light-blue-500 font-medium"
 >
   Medium Text
 </p>

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const apiWeather = axios.create({
-  baseURL: 'https://api.openweathermap.org/data/2.5/',
+  baseURL: 'https://api.openweathermap.org/data/2.5',
 })
 
 export const apiUnsplash = axios.create({

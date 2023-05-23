@@ -57,7 +57,7 @@ describe('Component/Atom/Text', () => {
     const classNames = cn([
       defaultClassName,
       'text-base',
-      'text-ligthblue-500',
+      'text-light-blue-500',
       'font-medium',
     ])
 
@@ -81,7 +81,7 @@ describe('Component/Atom/Text', () => {
     const classNames = cn([
       defaultClassName,
       'text-lg',
-      'text-ligthblue-500',
+      'text-light-blue-500',
       'font-bold',
     ])
 

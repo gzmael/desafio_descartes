@@ -27,6 +27,9 @@ const props: MapContextProps = {
   },
   updateAddress,
   updatePosition,
+  forecasts: [],
+  backgroundUrl: '',
+  weather: null,
 }
 
 const customRender = (
