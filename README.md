@@ -71,6 +71,7 @@ Update the enviroments from .env file.
 ```bash
 VITE_GOOGLE_GEOCODING_KEY=
 VITE_UNSPLAH_KEY=
+VITE_OPENWEATHER_KEY=
 ```
 
 Serve with hot reload at <http://localhost:5173>.
