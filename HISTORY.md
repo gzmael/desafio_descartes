@@ -34,3 +34,4 @@ Como guia eu criei um checklist contendo os seguintes items:
 8. Para criação do mapa foi utilizado o Leaflet. Assim os eventos de clicks no mapa ficaram mais simples de serem tratados.
 9. Para a recuperação do endereço de acordo com a geolocalização eu utilizei a api do Google Geocode.
 10. Finalizei o projeto com todas as funcionalidades solicitadas, porém, não consegui ter o coverage 100% nos testes. Alguns testes para eventos no mapa e a integração com a api não consegui criar devida a falta de experiência com esses componentes.
+11. Para acessar o projeto online basta acessar o endereço [desafio-descartes.vercel.app](https://desafio-descartes.vercel.app/).

@@ -6,6 +6,7 @@ import { Container } from 'components/templates/Container'
 import { Map } from 'components/organisms/Map'
 import { MapProvider } from 'contexts/MapContext'
 import { MainLayout } from 'components/templates/Main'
+import { Text } from 'components/atoms/Text'
 
 function App() {
   return (
@@ -18,6 +19,13 @@ function App() {
           <Sidebar />
           <Map />
         </Container>
+        <Text size="sm" className="w-full text-center">
+          Desenvolvido por{' '}
+          <a href="https://github.com/gzmael" className="text-light-blue-200">
+            Jezmael Basilio
+          </a>
+          .
+        </Text>
       </MainLayout>
     </MapProvider>
   )
